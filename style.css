@@ -355,6 +355,13 @@ WORK WITH ME */
     position: relative;
     bottom: 10px;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    padding-inline: 3%;
+    font-size: 90%;
+}
 @media only screen and (min-width: 650px) {
     .menu{
         display: none;
