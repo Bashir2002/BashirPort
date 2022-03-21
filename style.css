@@ -196,7 +196,7 @@ main{
     height: 200px;
 }
 .card-content{
-    width: 200px;
+    width: 100%;
     padding: 2px 16px;
 }
 .card-tittle{
