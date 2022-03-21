@@ -411,10 +411,10 @@ WORK WITH ME */
 }
 @media (orientation: landscape) {
     header{
-        height: 400px;
+        height: 450px;
     }    
     .header-overlay{
-        height: 400px;
+        height: 450px;
     }
 
 }
