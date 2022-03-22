@@ -123,7 +123,7 @@ main{
     padding: 40px;
 }
 .section h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color:purple ;
     margin-bottom: 10px 0;
@@ -357,10 +357,15 @@ WORK WITH ME */
 }
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: purple;
     padding-inline: 3%;
     font-size: 90%;
+    margin: 0 auto;
+}
+footer div{
+    text-align: center;
+    color: white;
 }
 @media only screen and (min-width: 650px) {
     .menu{
@@ -385,6 +390,9 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .section h2{
+        font-size: 30px;
     }
     .form-group input{
         border: 1px solid purple;
